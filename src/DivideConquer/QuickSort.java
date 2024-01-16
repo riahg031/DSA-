@@ -21,7 +21,7 @@ public class QuickSort {
         quickSort(arr, pidx+1, ei); //right
     }
 
-    //make place elements smaller to itahead and larger to it behind the pivot and bring the pivot to its right index. Return the pivot's right index.
+    //make place for smaller elements ahead of pivot and larger to it behind the pivot and bring the pivot to its right index. Return the pivot's right index.
     public static int partition(int[] arr, int si, int ei){
         int pivot = arr[ei];
         int i= si-1;
