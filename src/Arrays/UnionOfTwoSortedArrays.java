@@ -11,6 +11,7 @@ public class UnionOfTwoSortedArrays {
         System.out.println(mergeArrays(arr1, arr2));
         System.out.println(mergeArrays2(arr1, arr2));
         System.out.println(mergeArrays3(arr1, arr2));
+//        System.out.println(mergeArrays4(arr1, arr2));
     }
     public static ArrayList<Integer> mergeArrays(int[] a1, int[] a2){
         HashMap<Integer, Integer> map =new HashMap<>();
@@ -58,4 +59,8 @@ public class UnionOfTwoSortedArrays {
         }
         return list;
     }
+    //Using binary search
+//    public static oid mergeArrays4(int[] a1, int[] a2){
+//
+//    }
 }

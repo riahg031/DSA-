@@ -1,6 +1,6 @@
-package Recursion;
+package BinarySearch;
 
-public class Rec1 {
+public class MergeArrays {
     public static void main(String[] args) {
 
     }
